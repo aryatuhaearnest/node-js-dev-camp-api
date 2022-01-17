@@ -8,7 +8,7 @@ const bootcamps =require('./routes/bootcamps')
 dotenv.config({path:'./config/config.env'})
 
 const app = express()
-
+  
 // mount roters
 app.use('/api/v1/bootcamps',bootcamps)
 
